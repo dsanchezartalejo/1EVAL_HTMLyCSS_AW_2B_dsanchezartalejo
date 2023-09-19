@@ -1,0 +1,11 @@
+img.izquierda {
+    float: left;
+}
+
+img.derecha {
+    float: right;
+}
+
+img.centro {
+    float: center;
+}
