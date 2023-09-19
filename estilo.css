@@ -9,3 +9,12 @@ img.derecha {
 img.centro {
     float: center;
 }
+
+p.p1 {
+    background-color: #DDDDDD;
+    height: 150px;
+    left: 50px;
+    position: relative;
+    top: -50px;
+    width: 150px;
+  }
