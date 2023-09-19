@@ -18,3 +18,7 @@ p.p1 {
     top: -50px;
     width: 150px;
   }
+
+text.textoderecha {
+    float: right;
+}
