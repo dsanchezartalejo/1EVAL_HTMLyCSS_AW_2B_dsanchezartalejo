@@ -7,11 +7,26 @@
 </head>
 <body>
     <h1>Formulario</h1>
+    <p>
+        cosas <br>
+        <select name="menu" id="wa">
+            <option value="0">...</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+    </p>
     <form method="post" action="cosas/prueba.php">
         <label for="fname">Primer nombre:</label><br>
         <input id="name" type="text" name="name"><br>
-        <input type="submit" value="submit">
+        <input type="button" onclick="mensaje('Te dije que no hacia nada')" value="No hago nada">
     </form>
+
+    <script>
+        function mensaje(texto) {
+            alert(texto);
+        }
+    </script>
 
     <h3><a href="../../index.html">Volver al inicio</a></h3>
 </body>
