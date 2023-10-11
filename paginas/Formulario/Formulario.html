@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="../../estilo.css">
 </head>
 <body>
     <h1>Formulario</h1>
@@ -21,6 +22,13 @@
         <input id="name" type="text" name="name"><br>
         <input type="button" onclick="mensaje('Te dije que no hacia nada')" value="No hago nada">
     </form>
+    <hr>
+    <h2>Mas cosas</h2>
+    <fieldset>
+        <legend>Tus datos</legend>
+        <p>Nombre: <input type="text" name="nombre" size="20"></p>
+        
+    </fieldset>
 
     <script>
         function mensaje(texto) {
