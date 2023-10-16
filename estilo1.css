@@ -36,5 +36,10 @@ hr {
     border: none;
   }
   
+  div.bordecito {
+    border: red 5px solid;
+    position: relative;
+    width: fit-content;
+  }
   
   
