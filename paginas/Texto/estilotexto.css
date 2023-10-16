@@ -6,6 +6,9 @@ h1 {
 }
 
 body {
-    left: 50px;
+    left: 30px;
+    width: auto;
     position: relative;
+    top: 5px;
+    bottom: 15px;
 }
