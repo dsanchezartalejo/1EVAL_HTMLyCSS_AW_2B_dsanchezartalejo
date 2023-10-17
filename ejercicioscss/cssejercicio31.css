@@ -17,6 +17,7 @@ img.bajo {
     right: 0px;
     width: 300px;
     border: 5px black solid;
+    border-left: 5px red solid;
 }
 footer.abajo {
     position: fixed;
