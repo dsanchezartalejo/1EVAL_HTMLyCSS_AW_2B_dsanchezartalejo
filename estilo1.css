@@ -57,9 +57,3 @@ div.footerwa {
     position: relative;
     width: fit-content;
 }
-
-p.footerwa {
-    border: green 5px solid;
-    width: fit-content;
-    text-align: center;
-}
