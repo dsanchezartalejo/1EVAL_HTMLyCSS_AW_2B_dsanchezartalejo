@@ -1,0 +1,27 @@
+h1.titulo {
+    background-color: blue;
+    color: red;
+    width: fit-content;
+}
+
+body {
+    background-image: url("media/html-color-codes-color-tutorials-hero.jpg");
+    background-size: cover;
+    position: fixed;
+    width: auto;
+    left: 30px;
+}
+
+img.bajo {
+    position: absolute;
+    top: -125px;
+    right: 10px;
+    width: 300px;
+}
+footer.abajo {
+    position: fixed;
+    left: 30px;
+    right: 0;
+    bottom: 10px;
+}
+
