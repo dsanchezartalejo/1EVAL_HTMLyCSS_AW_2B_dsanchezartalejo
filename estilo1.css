@@ -42,3 +42,24 @@ hr {
     padding: 5px;
   }
   
+footer.abajo {
+    position: fixed;
+    left: 500px;
+    right: 500px;
+    bottom: 5px;
+    text-align: center;
+    border: green 5px solid;
+}
+
+div.footerwa {
+    text-align: center;
+    border: green 10px solid;
+    position: relative;
+    width: fit-content;
+}
+
+p.footerwa {
+    border: green 5px solid;
+    width: fit-content;
+    text-align: center;
+}
