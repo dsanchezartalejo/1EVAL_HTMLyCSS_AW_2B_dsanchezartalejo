@@ -37,9 +37,9 @@ hr {
   }
   
   div.bordecito {
-    border: red 5px solid;
+    border: 5px red solid;
     position: relative;
     width: fit-content;
+    padding: 5px;
   }
-  
   
