@@ -6,7 +6,17 @@ body {
     bottom: 15px;
 }
 
-h1 {
+h1.cosa {
     color: white;
     background-color: red;
+    width: fit-content;
+    padding: 5px;
+}
+
+div.imagenes {
+    background-image: url(../../multicosas/diosa-bocchi.gif);
+    background-size: contain;
+    padding: 1em;
+    text-shadow: black 0px 0px 5px;
+    color: white;
 }
