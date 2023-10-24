@@ -20,3 +20,7 @@ div.imagenes {
     text-shadow: black 0px 0px 5px;
     color: white;
 }
+
+html {
+    background: linear-gradient(rgb(200,100,50),aquamarine );
+}
