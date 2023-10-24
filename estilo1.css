@@ -63,6 +63,8 @@ div.footerwa {
     src: url(/Fuentes/doom/AmazDooMLeft.ttf);
 }
 
-h1.doom {
+p.doom {
     font-family: Doom;
+    font-size: 300%;
+    text-shadow: 0px 0px 2px red;
 }
