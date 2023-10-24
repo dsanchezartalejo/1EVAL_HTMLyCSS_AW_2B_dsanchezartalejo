@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Mystery+Quest");
 body {
     left: 30px;
     width: auto;
@@ -69,4 +70,8 @@ p.doom {
     font-family: "Doom";
     font-size: 300%;
     text-shadow: 0px 0px 2px red;
+}
+p.googlefont {
+    font-family: "Mystery Quest";
+    font-size: 200%;
 }
