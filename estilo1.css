@@ -57,3 +57,12 @@ div.footerwa {
     position: relative;
     width: fit-content;
 }
+
+@font-face {
+    font-family: Doom;
+    src: url(/Fuentes/doom/AmazDooMLeft.ttf);
+}
+
+h1.doom {
+    font-family: Doom;
+}
