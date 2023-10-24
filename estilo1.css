@@ -60,12 +60,12 @@ div.footerwa {
 
 /* Estilo de Doom */
 @font-face {
-    font-family: Doom;
+    font-family: "Doom";
     src: url(/Fuentes/doom/AmazDooMLeft.ttf);
 }
 
 p.doom {
-    font-family: Doom;
+    font-family: "Doom";
     font-size: 300%;
     text-shadow: 0px 0px 2px red;
 }
