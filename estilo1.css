@@ -58,6 +58,7 @@ div.footerwa {
     width: fit-content;
 }
 
+/* Estilo de Doom */
 @font-face {
     font-family: Doom;
     src: url(/Fuentes/doom/AmazDooMLeft.ttf);
