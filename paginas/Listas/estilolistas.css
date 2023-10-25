@@ -1,0 +1,6 @@
+ul {
+    list-style-type: square;
+    background-color: aquamarine;
+    width: fit-content;
+    list-style-position: outside;
+}
