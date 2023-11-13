@@ -1,0 +1,12 @@
+img.izquierda {
+    float: left;
+}
+
+img.derecha {
+    float: right;
+}
+
+hr {
+    clear: both;
+    border-width: 5px;
+}
