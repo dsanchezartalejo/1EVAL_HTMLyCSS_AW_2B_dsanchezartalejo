@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(220, 220, 220);
+  }
+
+
+
+.container {
+    background-color: lightgreen;
+    height: 800px;
+    margin: 50px auto;
+    position: relative;
+    width: 1500px;
+}
+
+
+nav {
+    background-color: dimgrey;
+    padding: 25px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+.nav-item {
+    display: inline-block;
+    background-color: dimgrey;
+    color: white;
+    padding-right: 150px;
+}
+
+
+[id*="li"] {
+    background-color: white;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 15px;
+    border: black 3px solid;
+    text-align: center;
+}
+
+[id*="li"] img{
+    width: 220px;
+    height: 120px;
+}
+
+[id*="li"] figcaption{
+    background-color: white;
+}
+  
+#li1 {
+    position: relative;
+    top: 130px;
+    left: 350px;
+    transform: rotate(-45deg);
+    z-index: 9;
+}
+
+#li2 {
+    position: relative;
+    top: -30px;
+    left: 480px;
+    transform: rotate(45deg);
+    z-index: 8;
+}
+
+#li3 {
+    position: relative;
+    top: -205px;
+    left: 580px;
+    transform: rotate(-15deg);
+    z-index: 7;
+}
+
+#li4 {
+    position: relative;
+    top: -375px;
+    left: 690px;
+    transform: rotate(15deg);
+    z-index: 6;
+}
+
+div.fixed-sidebar img {
+    width: 85px;
+    height: 85px;
+}
+
+div.fixed-sidebar {
+    border: 3px black solid;
+    width: 100px;
+    height: 350px;
+    padding: 2px;
+    position: fixed;
+    top: 100px;
+    left: 5px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+div.fixed-sidebar ul {
+    list-style-type: none;
+    padding-left: 0px;
+    text-align: center;
+}
